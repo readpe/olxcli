@@ -26,7 +26,7 @@ mkdir $HOME/src
 cd $HOME/src
 git clone https://github.com/readpe/olxcli.git
 cd olxcli
-GOOS=windows GOARCH=386 go install
+GOOS=windows GOARCH=386 go build -o dist/
 ```
 
 # Basic Usage
