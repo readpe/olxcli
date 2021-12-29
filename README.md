@@ -1,9 +1,18 @@
+
+---
+
+**_Update 12-29-2021:_**  
+
+OlxCLI is not under active development at this time, feel free to submit issues or pull requests, however they may not be promptly addressed.
+
+---
+
 # Overview
 OlxCLI is an unofficial command line interface (CLI) for ASPEN's Oneliner application. The CLI provides commands for running common fault simulation tasks through the command line or scripts. The commands interface with ASPEN's Oneliner through the provided application programming interface (API) in order to utilize the robust fault simulation algorithms provided.
 
 OlxCLI is designed with core command line tool principles, including support for command [piping](https://en.wikipedia.org/wiki/Pipeline_(Unix)) and correct utilization of stdin/stdout/stderr where applicable.  
 
-OlxCLI utilizes the [goolx](https://github.com/readpe/goolx) library to interface with the Oneliner api. If you require more advanced capabilities than OlxCLI supports, you may use [goolx](https://github.com/readpe/goolx) to create custom Go programs to meet your requirements.
+OlxCLI is a demonstration project for the [goolx](https://github.com/readpe/goolx) library. If you require more advanced capabilities than OlxCLI supports, you may use [goolx](https://github.com/readpe/goolx) to create custom Go programs to meet your requirements.
 
 ## Supported Architectures
 OlxCLI is only intended to run on Windows for i386 architectures. This limitation is due to Oneliner's limited support of other operating systems. Since OlxCLI is written in Go it could be expanded to other operating systems and architectures in the future should things change.
