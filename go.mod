@@ -3,7 +3,7 @@ module github.com/readpe/olxcli
 go 1.17
 
 require (
-	github.com/readpe/goolx v0.0.9
+	github.com/readpe/goolx v0.0.11
 	github.com/spf13/cobra v1.2.1
 )
 

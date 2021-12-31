@@ -194,6 +194,10 @@ github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndr
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
 github.com/readpe/goolx v0.0.9 h1:fRfS2B2bkFv4JfhdTIzhJz9Lv1jNCLRk15iJI7dSCJs=
 github.com/readpe/goolx v0.0.9/go.mod h1:CoxsWnKnLIp1hk7PMRQ6ZKho8ylyuiFiW5LMeYNnNyE=
+github.com/readpe/goolx v0.0.10 h1:bkkJjuT9zimi1thv0bty/qKHLldHt9fk3CzMESxPWlg=
+github.com/readpe/goolx v0.0.10/go.mod h1:CoxsWnKnLIp1hk7PMRQ6ZKho8ylyuiFiW5LMeYNnNyE=
+github.com/readpe/goolx v0.0.11 h1:eAtgGyG1Jj8I27Fuh7bCTG25D4sobhB64qijGpqcFrk=
+github.com/readpe/goolx v0.0.11/go.mod h1:CoxsWnKnLIp1hk7PMRQ6ZKho8ylyuiFiW5LMeYNnNyE=
 github.com/rogpeppe/fastuuid v1.2.0/go.mod h1:jVj6XXZzXRy/MSR5jhDC/2q6DgLz+nrA6LYCDYWNEvQ=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
 github.com/russross/blackfriday/v2 v2.0.1/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
