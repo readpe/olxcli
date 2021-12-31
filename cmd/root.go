@@ -6,6 +6,7 @@ package cmd
 
 import (
 	"github.com/readpe/olxcli/cmd/busfaults"
+	"github.com/readpe/olxcli/cmd/noclear"
 	"github.com/spf13/cobra"
 )
 
@@ -26,6 +27,7 @@ func init() {
 	rootCmd.AddCommand(versionCmd)
 	rootCmd.AddCommand(licenseCmd)
 	rootCmd.AddCommand(busfaults.BFCmd)
+	rootCmd.AddCommand(noclear.NCCmd)
 }
 
 // Execute the root command.
