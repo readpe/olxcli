@@ -14,7 +14,6 @@ import (
 	"text/tabwriter"
 
 	"github.com/readpe/goolx"
-	"github.com/readpe/goolx/constants"
 	"github.com/readpe/goolx/model"
 	"github.com/spf13/cobra"
 )
@@ -176,7 +175,7 @@ func runBusFault(cmd *cobra.Command, args []string) error {
 	}
 
 	// Loop through buses.
-	buses := api.NextEquipment(constants.TCBus)
+	buses := api.NextEquipment(goolx.TCBus)
 	for buses.Next() {
 		hnd := buses.Hnd()
 		b, err := model.GetBus(api, hnd)
@@ -244,9 +243,9 @@ func runBusFault(cmd *cobra.Command, args []string) error {
 			var ia, ib, ic goolx.Phasor
 			switch seqFlag {
 			case true:
-				ia, ib, ic, err = api.GetSCCurrentSeq(constants.HNDSC)
+				ia, ib, ic, err = api.GetSCCurrentSeq(goolx.HNDSC)
 			default:
-				ia, ib, ic, err = api.GetSCCurrentPhase(constants.HNDSC)
+				ia, ib, ic, err = api.GetSCCurrentPhase(goolx.HNDSC)
 			}
 			if err != nil {
 				fmt.Fprintln(os.Stderr, err)
