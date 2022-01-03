@@ -55,6 +55,8 @@ Usage:
 Available Commands:
   busfault    Run bus fault simulations.
   help        Help about any command
+  license     Display the license information
+  noclear     Check for no or slow clearing equipment utilizing stepped event analysis
   version     Display the current command line application version
 
 Flags:
