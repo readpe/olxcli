@@ -1,6 +1,6 @@
 module github.com/readpe/olxcli
 
-go 1.17
+go 1.19
 
 require (
 	github.com/readpe/goolx v0.0.11

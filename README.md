@@ -1,12 +1,4 @@
 
----
-
-**_Update 12-29-2021:_**  
-
-OlxCLI is not under active development at this time, feel free to submit issues or pull requests, however they may not be promptly addressed.
-
----
-
 # Overview
 OlxCLI is an unofficial command line interface (CLI) for ASPEN's Oneliner application. The CLI provides commands for running common fault simulation tasks through the command line or scripts. The commands interface with ASPEN's Oneliner through the provided application programming interface (API) in order to utilize the robust fault simulation algorithms provided.
 
